@@ -1,0 +1,38 @@
+*{
+    background-color:#ea6563;
+    padding:0px;
+    margin: 0px;
+}
+
+#root{
+   
+    height: 100vh;
+    border: 2px solid red;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.Heading , .para1, .para2, .para3{
+
+    /* border: 2px solid red; */
+    display :flex;
+    justify-content: center;
+    /* padding-left: 7rem;
+    padding-right: 5rem; */
+    align-items: center;
+    margin-top: 2rem;
+    color: aliceblue;
+
+}
+
+.Heading{
+    font-family: 'Roboto', sans-serif;
+}
+
+.para1{ 
+    font-family: 'Roboto', sans-serif;
+}
